@@ -8,39 +8,46 @@ class Assignment1 extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        centerTitle: true,
+        //centerTitle: true,
         title: const Text(
           "DailyFlash_01",
           style: TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 30,
+            color: Colors.black
           ),
         ),
       ),
       body: Column(
         children: [
           Image.asset("assets/images/Photo.jpg",
-            fit: BoxFit.fitWidth,
+            fit: BoxFit.fill,
           ),
-          
-            // Column( 
-            //   children: [
-            //     Text(
-            //       "Siddhant Satkar",
-            //       style: TextStyle(
-            //         color: Colors.red,
-            //       ),
-            //     ),
-            //     Expanded(
-            //       child: Text(
-            //         "Hello i am siddhant satkar, check purpose"
-            //       )
-            //     )
-            //   ],
-            // ),
-          
-          
-
+          Container(
+            padding: const EdgeInsets.all(10),
+            child: const Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "Siddhant",
+                  style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                  Text(
+                    "Siddhant satkar you need to study hard and practice more otherwise you will not able to write a good code.",
+                    style: TextStyle(
+                      fontSize: 15,
+                      //fontWeight: FontWeight.bold
+                    ),
+                  ),
+              ],
+            ),
+          ),
         ],
       ),
     );

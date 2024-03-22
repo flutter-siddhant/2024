@@ -1,4 +1,5 @@
 import 'package:dailyflash_06/Question_01.dart';
+import 'package:dailyflash_06/Question_02.dart';
 import 'package:flutter/material.dart';
 
 void main() {
