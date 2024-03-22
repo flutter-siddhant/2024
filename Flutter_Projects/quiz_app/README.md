@@ -1,4 +1,4 @@
-# Quizee - A Flutter Quiz App
+# MindMeld - A Flutter Quiz App
 
 Quizee is a sophisticated quiz app built using Flutter. It features a polished home page, an intuitive quiz interface, and a seamless submission process.
 
