@@ -45,7 +45,6 @@ class Assignment2 extends StatelessWidget{
             ),
             ElevatedButton(
               onPressed: (){
-
               },
               child: const Text(
                 "Click here for Resume",
