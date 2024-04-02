@@ -1,4 +1,7 @@
 import 'package:dailyflash_07/Question_01.dart';
+import 'package:dailyflash_07/Question_02.dart';
+import 'package:dailyflash_07/Question_03.dart';
+import 'package:dailyflash_07/Question_04.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +14,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Assignment1()
+      home: Assignment2()
     );
   }
 }
