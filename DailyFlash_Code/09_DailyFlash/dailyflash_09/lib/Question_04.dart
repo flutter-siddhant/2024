@@ -67,7 +67,7 @@ class _StateAssignment4 extends State<Assignment5>{
               controller: controller2,
               focusNode: node2,
               decoration: InputDecoration(
-                hintText: "Number",
+                hintText: "Enter Number",
                 labelText: "Number",
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(5),
@@ -109,7 +109,7 @@ class _StateAssignment4 extends State<Assignment5>{
               itemCount: store1.length,
               itemBuilder: (context, index){
                 return Text(
-                  "name: ${store1[index] } ,phone: ${store2[index]}"
+                  "name: ${store1[index]} ,phone: ${store2[index]}"
                 );
               }
             )
